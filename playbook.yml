@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 44.202.64.65
   tasks:
     - name: pull imagem do Docker
       docker_image:
