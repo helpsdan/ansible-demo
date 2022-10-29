@@ -1,4 +1,4 @@
-- hosts: 44.202.64.65
+- hosts: ec2-44-202-64-65.compute-1.amazonaws.com
   tasks:
     - name: pull imagem do Docker
       docker_image:
